@@ -47,7 +47,20 @@
    
    ```
    
-
+   ```javascript
+   function a() {
+       var myVar = 2;
+       b();
+   }
+   function b() {
+        console.log(myvar);            
+   }
+   var myVar = 1;
+   a();
+   
+   OUTPUT: 1
+   
+   ```
 
 
 
